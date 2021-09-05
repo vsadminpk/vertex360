@@ -1,0 +1,93 @@
+{
+ "add_total_row": 0,
+ "columns": [
+  {
+   "fieldname": "vevo_check_present",
+   "fieldtype": "Select",
+   "label": "Vevo Check Present",
+   "width": 0
+  },
+  {
+   "fieldname": "police_check_present",
+   "fieldtype": "Select",
+   "label": "Police Check Present",
+   "width": 0
+  }
+ ],
+ "creation": "2021-07-09 10:30:27.429734",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [
+  {
+   "fieldname": "vevo_check_present",
+   "fieldtype": "Select",
+   "label": "Vevo Check Present",
+   "mandatory": 1,
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "police_check_present",
+   "fieldtype": "Select",
+   "label": "Police Check Present",
+   "mandatory": 1,
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "working_with_children_check_present",
+   "fieldtype": "Select",
+   "label": "Working with Children Check Present",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "first_aid_present",
+   "fieldtype": "Select",
+   "label": "First Aid Present",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "drivers_license_present",
+   "fieldtype": "Select",
+   "label": "Drivers License Present",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "working_with_ndis_screening_check",
+   "fieldtype": "Select",
+   "label": "Working with NDIS Screening Check Present",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "international_police_check_present",
+   "fieldtype": "Select",
+   "label": "International Police Check Present",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  }
+ ],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{}",
+ "modified": "2021-07-09 11:04:53.510591",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Staff Screening Documents Check",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Staff Screening",
+ "report_name": "Staff Screening Documents Check",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Administrator"
+  }
+ ]
+}
